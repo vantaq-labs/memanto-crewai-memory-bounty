@@ -50,6 +50,10 @@ memory.remember("target audience=Python AI builders", type="fact", source_agent=
 results = memory.recall("target audience", type="fact")
 ```
 
+## Production adapter notes
+
+See [`CREWAI_MEMANTO_ADAPTER.md`](CREWAI_MEMANTO_ADAPTER.md) for the proposed CrewAI mapping, memory taxonomy, metadata strategy, and contradiction/upsert policy. This is included so the submission is not only a toy transcript: reviewers can see exactly how the local proof maps to a real Memanto-backed CrewAI memory layer.
+
 ## Visual proof
 
 A terminal transcript is in [`demo/terminal-proof.txt`](demo/terminal-proof.txt). It shows reset -> research run -> writer run -> contradiction update/retrieval.
