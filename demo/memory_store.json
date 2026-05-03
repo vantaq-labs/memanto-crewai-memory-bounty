@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": 1777780571.4558144,
+    "source_agent": "Research Agent",
+    "status": "current",
+    "text": "target audience=Python AI builders",
+    "type": "fact"
+  },
+  {
+    "created_at": 1777780571.455931,
+    "source_agent": "Research Agent",
+    "status": "superseded",
+    "text": "tone=concise technical",
+    "type": "preference"
+  },
+  {
+    "created_at": 1777780571.456193,
+    "source_agent": "Research Agent",
+    "status": "current",
+    "text": "publish channel=README tutorial",
+    "type": "fact"
+  },
+  {
+    "created_at": 1777780571.5192294,
+    "source_agent": "Contradiction Resolver",
+    "status": "current",
+    "text": "tone=step-by-step beginner friendly",
+    "type": "preference"
+  }
+]

@@ -1,0 +1,7 @@
+$ python3 src/crewai_memanto_demo.py --reset --phase research
+Research Agent stored 3 durable memories
+$ python3 src/crewai_memanto_demo.py --phase writer
+Writer Agent recalled: target audience=Python AI builders; tone=concise technical; publish channel=README tutorial
+Draft: A concise README tutorial for Python AI builders using durable Memanto memory.
+$ python3 src/crewai_memanto_demo.py --phase contradiction
+Current tone memory: tone=step-by-step beginner friendly
